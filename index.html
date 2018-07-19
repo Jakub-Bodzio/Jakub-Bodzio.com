@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+
+<head>
+
+	<meta charset="utf-8">
+	<title>Podróże - małe i duże.pl</title>
+	<meta name="description" content="Zapraszam do zapoznania sie z blogiem na temat podróży. Można tu znależć rozmaite artykuły, kierunki podróży oraz niezbędną w trakcie nich wiedzę.">
+	<meta name="keywords" content="podróże, blog, kierunki, forum, galeria, zdjęcia, porady, ">
+	<meta name="author" content="Jakub Kołak">
+	
+	<link rel="stylesheet" href="style.css"> 
+	<link rel="stylesheet" href="css/fontello.css">
+	
+	
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+	
+    <script src="jquery-3.2.1.min.js"></script>
+	
+	<script src="jquery-1.11.3.min.js"></script>
+	
+
+<script>
+	
+	$(document).ready(function() {
+	var NavY = $('nav').offset().top;
+	 
+	var stickyNav = function(){
+	var ScrollY = $(window).scrollTop();
+		  
+	if (ScrollY > NavY) { 
+		$('nav').addClass('sticky');
+	} else {
+		$('nav').removeClass('sticky'); 
+	}
+	};
+	 
+	stickyNav();
+	 
+	$(window).scroll(function() {
+		stickyNav();
+	});
+	});
+	
+</script>
+	
+</head>
+
+<body>
+
+    <header>
+
+        <h1 class="logo">Podróże - małe i duże</h1>
+    
+	   <nav>
+	   
+	          <ul class="menu">
+	                <li><a href="#">Strona główna</a></li> 
+					<li><a href="#">Kierunki podróży</a></li> 
+					<li><a href="#">Artykuły</a></li> 
+					<li><a href="#">Galeria</a></li> 
+					<li><a href="#">Forum podróżnicze</a></li> 
+					<li><a href="#">O mnie</a></li>
+			  </ul>
+	   
+	   </nav>
+	
+    </header>
+
+    <main>
+
+       <article>
+	
+			<section>
+			
+			    <div class="categories">
+				
+				   <header>
+				
+				       <h1>Witaj w świecie podróży!</h1>
+				
+				       <p class = "entry">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sollicitudin sodales lacus, sed sollicitudin massa venenatis in. Proin iaculis risus nunc, id interdum enim cursus vel. Sed in velit consequat eros fermentum efficitur. In mollis eget nulla quis tempor. Fusce sit amet risus sit amet erat rhoncus rutrum. Sed vel pretium justo. Vivamus congue orci lacus, nec semper dui facilisis sed. Mauris eu orci tortor. Nam molestie risus sit amet posuere suscipit.</p>
+				
+				      <h1 class = "entry-title">Oto kilka przykładowych zakładek z tej strony.<h1/>
+				  
+				   </header>
+			
+			          <div class="places">
+					  
+					       <figure>
+					  
+					               <div class="photo1">    
+									   
+									   <a href="#"><img src="img/hiszpania.jpg" alt="Hiszpania"></a>
+					                   <figcaption>Tydzień w Hiszpanii</figcaption>
+						  
+						           </div>
+						  
+						  </figure> 
+						   
+				     </div>
+					  
+					  
+					   <div class="places">
+					  
+					         <div class="photo2">
+						   
+						         <figure>
+					  
+					                  <a href="#"><img src="img/grecja.jpg" alt="Grecja"></a>
+					                  <figcaption>Ciekawe miejsca w Grecji</figcaption>
+						  
+						        </figure> 
+						   
+				             </div>
+					 
+					 </div>
+					  
+					   <div class="places">
+					  
+					       <div class="photo3">
+						   
+						     <figure>
+					  
+					               <div class="overlay">
+								   
+								        <a href="#"><img src="img/Rzym.jpg" alt="Rzym"></a>
+					               
+								        <a class="photo_link" href="#"><p>Zakochaj się w mieście, które nigdy nie śpi.</p></a>
+								   
+								        <figcaption>Romantyczny Rzym</figcaption>
+						  
+						         </div>
+							 
+							 </figure> 
+						   
+				          </div>
+					 
+					 </div>
+					  
+					  
+				<div class="places">
+					  
+					     <div class="photo4">
+						   
+						     <figure>
+					  
+					              <a href="#"><img src="img/berlin.jpg" alt="Berlin"></a>
+					              <figcaption>Weekend w Berlinie</figcaption>
+						  
+						    </figure> 
+						   
+				        </div>  
+					 
+		        </div> 
+					 
+					 <div class="places">
+					  
+					   <figure>
+					   
+					      <div class="overlay_biescady">
+					                 
+									 <a href="#"><img src="img/bieszczady.jpg" alt="Bieszczady"></a>
+					                 
+									 <a class="photo_link" href="#"><span class="icon"><i class="icon-search"></i><p>Zobacz album</p></span></a>
+									 
+									 <figcaption>Polskie Bieszczady</figcaption>
+						  
+						   </div>
+						    
+				        </figure> 
+						   
+				    </div>
+					  
+					 <div class="places">
+					  
+
+            					  <div class="photo6">
+					                        
+											
+											<figure>
+					  
+					                                 
+								  
+								                           <a href="#"><img src="img/wroclaw.jpg" alt="Wrocław"></a>
+					                                       <figcaption>Piękny Wrocław</figcaption>
+						  
+						                       </figure> 
+						          
+								  </div>
+				                 
+					 </div>
+					  
+			</div>
+			
+			</section>
+       
+	        <section>
+			
+			      <h1 class="head">Poczytaj opinie o stronie i napisz własną!</h1>
+				  
+				      <div class="comment">
+				  
+				            <div class="comment_photo">
+		    
+			                    <img src="img/user.png">
+			
+			                       <div class="user_name">
+								   
+								         <p>Adam</p>
+								   
+								   </div>
+					            
+				            </div>
+					  
+					         <div class="main_comment">
+					  
+					            <h1>Świetna strona!</h1>
+					  
+					            <p>Na prawdę świetna strona! Bardzo serdecznie ją polecam. Można dowiedzieć się tutaj na prawdę wielu ciekawych i przydatnych rzeczy. 
+							
+							
+							</div>
+					  
+					</div>
+				 
+				 
+			<div class="comment">
+				  
+				            <div class="comment_photo">
+		    
+			                    <img src="img/user.png">
+			
+			                       <div class="user_name">
+								   
+								         <p>Maciek</p>
+								   
+								   </div>
+					            
+				            </div>
+					  
+					         <div class="main_comment">
+					  
+					            <h1>Ciekawe artykuły!</h1>
+					  
+					            <p>Świetnie wykonana strona. Bardzo podobał mi sie artykuł o Rzymie i galeria zdjęć o Bieszczadach. Na pewno będę tu często zaglądał!</p>
+							
+							
+							</div>
+					  
+					</div>
+			
+			
+			
+			
+			<div class="comment">
+				  
+				            <div class="comment_photo">
+		    
+			                    <img src="img/user.png">
+			
+			                       <div class="user_name">
+								   
+								         <p>Bartosz</p>
+								   
+								   </div>
+					            
+				            </div>
+					  
+					         <div class="main_comment">
+					  
+					            <h1 class="main_comment_header">Polecam Serdecznie!</h1>
+					  
+					            <p>Bardzo serdecznie polecam tą stronę wszystkim osobom, które przygotowują się do podróży, jak i tym, którzy są miłośnikami świetnie wykonanych zdjęć. pozdrawamiam serdecznie!</p>
+							
+							
+							</div>
+					  
+					</div>
+			
+			
+			
+			<div class="published_comment">
+				  
+				            <div class="comment_photo">
+		    
+			                    <img src="img/user.png">
+			
+			                       <div class="user_name">
+								   
+								         <input type="text"  placeholder="Wpisz imię...">
+								   
+								   </div>
+					            
+				            </div>
+					  
+					         <div class="main_comment">
+					  
+					            <input type="text" placeholder="Wpisz tytuł...">
+					  
+					            <textarea placeholder="Wpisz treść opinii..."></textarea>
+							
+							
+							</div>
+					  
+					</div>
+			
+			    <!--Oczywiście jest to tylko tak na niby. Nie można tego komentarza faktycznie umieścić.-->
+			
+			<input type="button" value="Opublikuj">
+			   
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			     
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			</section>
+       
+	   </article>
+	
+	</main>
+	
+	 <footer>
+	
+	      Podróże - małe i duże.pl 2017 &copy Wszelkie prawa zastrzeżone
+	
+	 </footer>
+
+	
+	
+</body>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
